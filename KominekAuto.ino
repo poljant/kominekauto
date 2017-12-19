@@ -49,8 +49,8 @@ int ilM=3; //ile minut może trwać czas trybu MANUAL
 //const char* ssid = "SSID";   // SSID sieci WiFi
 //const char* password = "pass";  // password do WiFi
 
-const char* ssid = "POLJANT_WLAN";   // SSID sieci LAN/WLAN
-const char* password = "Marcjzt29newpass";  // password
+const char* ssid = "SSID";   // SSID sieci LAN/WLAN
+const char* password = "password";  // password
 
 const int port = 80;                 // port serwera www
 ESP8266WebServer server(port);
