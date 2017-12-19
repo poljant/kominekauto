@@ -57,7 +57,7 @@ ESP8266WebServer server(port);
 ESP8266HTTPUpdateServer httpUpdate;
 
 #define DEBUG
-#define IP_STATIC
+//#define IP_STATIC
 #ifdef IP_STATIC
 IPAddress IPadr(10,110,2,120); //stały IP
 IPAddress netmask(255,255,0,0);
