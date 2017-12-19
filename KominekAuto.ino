@@ -50,14 +50,18 @@ int ilM=3; //ile minut może trwać czas trybu MANUAL
 //const char* password = "pass";  // password do WiFi
 
 const char* ssid = "SSID";   // SSID sieci LAN/WLAN
+<<<<<<< HEAD
 const char* password = "passwod";  // password
+=======
+const char* password = "password";  // password
+>>>>>>> ce32273801af01e01d61658c004fe8600aa9fa1a
 
 const int port = 80;                 // port serwera www
 ESP8266WebServer server(port);
 ESP8266HTTPUpdateServer httpUpdate;
 
 #define DEBUG
-#define IP_STATIC
+//#define IP_STATIC
 #ifdef IP_STATIC
 IPAddress IPadr(10,110,2,120); //stały IP
 IPAddress netmask(255,255,0,0);
